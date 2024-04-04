@@ -63,7 +63,11 @@ endmodule
 ```
 
 **Half_subtractor**
+
 ```
+Developed by: P PARTHIBAN
+
+RegisterNumber:212223230145
 module halfsub_top(a,b,D,Bo);
 input a,b;
 output D,Bo; // Outputs sum and carry for half adder:Outputs difference D,Borrow Bo for half subtractor
@@ -72,9 +76,6 @@ assign Bo = ~a & b;
 endmodule
 ```
 
-Developed by: P PARTHIBAN
-
-RegisterNumber:212223230145
 **OUTPUT**
 
 **Half_adder**
